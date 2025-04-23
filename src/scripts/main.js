@@ -354,7 +354,7 @@ const people = [
   },
 ];
 
-const table = document.querySelector('.dashboard');
+const table = document.querySelector('.dashboard tbody');
 
 for (const person of people) {
   const row = document.createElement('tr');
